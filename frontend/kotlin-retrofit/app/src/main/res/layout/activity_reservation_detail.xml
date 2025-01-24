@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/img">
+
+    <!-- Titre Client ID -->
+    <TextView
+        android:id="@+id/textViewClientId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Client ID: "
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Valeur Client ID -->
+    <TextView
+        android:id="@+id/textViewClientIdValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12345"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Titre Chambre ID -->
+    <TextView
+        android:id="@+id/textViewChambreId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chambre ID: "
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Valeur Chambre ID -->
+    <TextView
+        android:id="@+id/textViewChambreIdValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="101"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Titre Date Début -->
+    <TextView
+        android:id="@+id/textViewDateDebut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date Début: "
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Valeur Date Début -->
+    <TextView
+        android:id="@+id/textViewDateDebutValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2025-01-20"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Titre Date Fin -->
+    <TextView
+        android:id="@+id/textViewDateFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date Fin: "
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Valeur Date Fin -->
+    <TextView
+        android:id="@+id/textViewDateFinValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2025-01-25"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Titre Préférences -->
+    <TextView
+        android:id="@+id/textViewPreferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Préférences: "
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Valeur Préférences -->
+    <TextView
+        android:id="@+id/textViewPreferencesValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Non-fumeur, étage élevé"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Bouton Modifier Réservation -->
+    <Button
+        android:id="@+id/buttonEditReservation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modifier Réservation"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/primary_color"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:elevation="4dp"/>
+
+    <!-- Bouton Supprimer Réservation -->
+    <Button
+        android:id="@+id/buttonDeleteReservation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Supprimer Réservation"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/primary_color"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:elevation="4dp"/>
+
+</LinearLayout>

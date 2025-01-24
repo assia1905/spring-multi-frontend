@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/img">
+
+    <Spinner
+        android:id="@+id/spinnerTypeChambre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/spinner_background"
+        android:popupBackground="@color/light_grey"
+        android:spinnerMode="dropdown"/>
+
+    <EditText
+        android:id="@+id/editPrix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prix"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_background"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"
+        android:padding="12dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerDispoChambre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/spinner_background"
+        android:popupBackground="@color/light_grey"
+        android:spinnerMode="dropdown"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer"
+        android:background="@drawable/button_background"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:padding="12dp"/>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/img">
+
+    <!-- Bouton Ajouter une chambre -->
+    <Button
+        android:id="@+id/btnAddChambre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter une chambre"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white"
+        android:elevation="4dp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold" />
+
+    <!-- RecyclerView pour afficher les chambres -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:background="@drawable/recycler_background"
+        android:scrollbars="vertical"
+        android:textColor="@color/edittext_text"
+        android:textColorHint="@color/edittext_hint"/>
+</LinearLayout>

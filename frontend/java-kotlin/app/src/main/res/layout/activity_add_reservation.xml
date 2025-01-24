@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/img">
+
+    <!-- Champ pour l'ID du client -->
+    <EditText
+        android:id="@+id/editTextClientId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Client ID"
+        android:inputType="number"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="@color/edittext_text"
+        android:textColorHint="@color/edittext_hint"/>
+
+    <!-- Spinner pour sélectionner une chambre disponible -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Chambre disponible"
+        android:textSize="16sp"
+        android:textColor="@color/edittext_text"
+        android:textColorHint="@color/edittext_hint"/>
+
+    <Spinner
+        android:id="@+id/spinnerChambres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/edittext_text"
+        android:textColorHint="@color/edittext_hint"/>
+
+    <!-- Champ pour la date de début -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Date de début"
+        android:textSize="16sp"
+        android:textColor="@color/edittext_text"
+        android:textColorHint="@color/edittext_hint"/>
+
+    <EditText
+        android:id="@+id/editTextDateDebut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="YYYY-MM-DD"
+        android:imeOptions="actionDone"
+        android:inputType="none"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="@color/edittext_text"
+        android:textColorHint="@color/edittext_hint"/>
+
+    <!-- Champ pour la date de fin -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Date de fin"
+        android:textSize="16sp"
+        android:textColor="@color/edittext_text"
+        android:textColorHint="@color/edittext_hint"/>
+
+    <EditText
+        android:id="@+id/editTextDateFin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="YYYY-MM-DD"
+        android:imeOptions="actionDone"
+        android:inputType="none"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="@color/edittext_text"
+        android:textColorHint="@color/edittext_hint"/>
+
+    <!-- Champ pour les préférences -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Préférences"
+        android:textSize="16sp"
+        android:textColor="@color/edittext_text"
+        android:textColorHint="@color/edittext_hint"/>
+
+    <EditText
+        android:id="@+id/editTextPreferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez vos préférences"
+        android:imeOptions="actionDone"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="@color/edittext_text"
+        android:textColorHint="@color/edittext_hint"/>
+
+    <!-- Bouton pour sauvegarder la réservation -->
+    <Button
+        android:id="@+id/buttonSaveReservation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Sauvegarder Réservation"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:elevation="4dp" />
+</LinearLayout>
